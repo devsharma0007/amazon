@@ -1,0 +1,247 @@
+*{
+    margin : 0px;
+    padding : 0px;
+    font-family : Arial;
+    border: border-box;
+} 
+.navbar{
+    height : 60px;
+    background-color: #0F1111;
+    color : white;
+    display : flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    
+}
+.nav-logo{
+    height : 50px;
+    width : 120px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image : url("Amazon-Logo-White.png");
+    height : 50px;
+    width : 100px;
+   
+    background-size : contain;
+    background-repeat : no-repeat;
+    background-position : center;
+}
+.border{
+    border : 2px solid transparent;
+}
+.border:hover{
+    border : 2px solid white;
+}
+.add-first{
+    color : #CCCCCC;
+    font-size : 0.85rem;
+    margin-left : 15px;
+
+}
+.add-second{
+    font-size : 1rem;
+    margin-left : 2px;
+}
+.add-icon{
+    display : flex;
+    align-items: center;
+}
+.nav-search{
+    display : flex;
+    width : 700px;
+    height: 40px;
+    background-color: pink;
+    margin-left : 10px;
+    border-radius : 3px;
+    justify-content: space-evenly;
+}
+.nav-search:hover{
+    border : 2px solid orange;
+}
+.search-icon{
+    background-color: #f3a847;
+}
+.search-select{
+    border-radius: 3px;
+    background-color: #f3f3f3;
+    width : 50px;
+    border-top-left-radius : 4px;
+    border-bottom-left-radius : 4px;
+    text-align: center;
+    border : none;
+}
+.search-input{
+    width : 100%;
+    font-size : 1rem;
+    border :  none;
+}
+.search-icon{
+    width : 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size : 1.2rem;
+    border-top-right-radius : 4px;
+    border-bottom-right-radius : 4px;
+    color : #0F1111
+}
+.nav-lang{
+    height : 50px;
+    width : 70px;
+    display: flex;
+    
+    align-items: center;
+    background-position : bottom; 
+    margin-left : 20px;
+    
+
+}
+.nav-flag{
+    background-image : url(Indian-Flag.jpg);
+    
+
+    
+    height : 15px;
+    width : 20px;
+
+    
+    
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    background-size : cover;
+    background-repeat : no-repeat;
+    background-position : center; 
+     /* margin-top : 5px; */
+    margin-right : 5px;
+}
+.nav-en{
+    height : 10px;
+    width : 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+}
+.lala{
+    color : white;
+    background-color: black;
+    border : transparent
+}
+
+.span-first{
+    font-size : 0.8rem;
+}
+.nav-second{
+    font-size: 0.85rem; 
+    font-weight : 700;
+    
+}
+.nav-search:hover{
+    border : 2px solid orange;
+}
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    
+    /* height : 50px;
+    width : 70px; */
+    /* display : flex;
+    justify-content: center;
+    align-items: center; */
+    font-size : 0.85rem;
+    font-weight : 700;
+}
+
+.panel{
+    height : 40px;
+    background-color: #222f3d;
+    display : flex;
+    justify-content: space-evenly;
+    color : white;
+    align-items: center;
+}
+.panel-ops p{
+    display : inline;
+    margin-left : 15px;
+}
+.panel-ops{
+    width : 70%;
+    font-size : 0.85rem;
+
+}
+.panel-deals
+{
+    font-size: 0.9rem;
+    font-weight : 700;  
+}
+
+.hero-section{
+    background-image : url("Hero-image.png");
+    height : 400px;
+    background-size : cover; 
+    display : flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg{
+    background-color: white;
+    color : black;
+    height : 40px;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    font-size : 0.85rem;
+    width : 80%;
+    margin-bottom : 25px;
+}
+
+.hero-msg a{
+    color : #007185;
+}
+
+
+.box{
+    height : 400px;
+    
+    width : 23%;
+    background-color: white;
+    padding : 20px 0px 15px;
+    margin-top : 15px;
+
+
+}
+.shop-section{
+    display : flex;
+    justify-content: space-evenly;
+    background-color: #ffbe3c;
+}
+
+.box-img{
+    height : 300px;
+    background-size : cover;
+    background-repeat : no-repeat;
+    margin-top : 1 rem;
+    margin-bottom : 1rem;
+
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+.box-content p{
+    color : #007185; 
+    
+}
